@@ -3,6 +3,7 @@ package fr.fms.thread;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+//import java.util.Calendar;
 
 public class ThreadTime {
 
@@ -30,8 +31,8 @@ public class ThreadTime {
 				try {
 					/*
 					 * Calendar cal = Calendar.getInstance();
-					 * hours = cal.get( Calendar.HOUR_OF_DAY
-					 * ); if ( hours > 12 ) hours -= 12;
+					 * hours = cal.get( Calendar.HOUR_OF_DAY);
+					 * if ( hours > 12 ) hours -= 12;
 					 * minutes = cal.get( Calendar.MINUTE );
 					 * seconds = cal.get( Calendar.SECOND );
 					 * 
